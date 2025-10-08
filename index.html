@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hashira's Wiki</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="top-header">
+        <h1 class="site-title">Hashira's <span class="wiki-text">Wiki</span></h1>
+    </header>
+
+    <main>
+        <div class="search-container">
+            <input type="text" placeholder="Pesquisar por personagens...">
+            <button class="search-button">Pesquisar</button>
+        </div>
+
+        <div class="content-wrapper">
+            <aside class="filters">
+                <h3>Filtros <a href="#" class="limpar-filtros">Limpar Filtros</a></h3>
+
+                <div class="filter-group">
+                    <h4>Status</h4>
+                    <div class="status-options">
+                        <label><input type="checkbox" value="vivo"> Vivo</label>
+                        <label><input type="checkbox" value="morto"> Morto</label>
+                    </div>
+
+                    <h4>Respiração</h4>
+                    <div class="breathing-options">
+                        <select>
+                            <option value="">Todas</option>
+                            <option value="respiração da água">Respiração da Água</option>
+                            <option value="respiração do fogo">Respiração do Fogo</option>
+                            <option value="respiração do inseto">Respiração do Inseto</option>
+                            <option value="respiração do som">Respiração do Som</option>
+                            <option value="respiração do vento">Respiração do Vento</option>
+                            <option value="respiração da pedra">Respiração da Pedra</option>
+                            <option value="respiração do amor">Respiração do Amor</option>
+                            <option value="respiração da serpente">Respiração da Serpente</option>
+                            <option value="respiração da névoa">Respiração da Névoa</option>
+                        </select>
+                    </div>
+                </div>
+            </aside>
+
+            <div class="characters-grid">
+                <a href="https://kimetsu-no-yaiba.fandom.com/wiki/Giyu_Tomioka" class="character-card" target="_blank">
+                    <div class="status-badge alive">Vivo</div>
+                    <img src="images/giyu-tomioka-kimetsu-no-yaiba_sh3h.960.webp" alt="Giyu Tomioka">
+                    <h3>Giyu Tomioka</h3>
+                    <p class="breathing-style">Respiração da Água</p>
+                    <p class="location">Última localização: Monte Natagumo</p>
+                </a>
+
+                <a href="https://kimetsu-no-yaiba.fandom.com/wiki/Kyojuro_Rengoku" class="character-card" target="_blank">
+                    <div class="status-badge dead">Morto</div>
+                    <img src="images/kyojuro-rengoku-kimetsu-no-yaiba_e6sd.960.webp" alt="Kyojuro Rengoku">
+                    <h3>Kyojuro Rengoku</h3>
+                    <p class="breathing-style">Respiração do Fogo</p>
+                    <p class="location">Última localização: Trem Infinito</p>
+                </a>
+
+                <a href="https://kimetsu-no-yaiba.fandom.com/wiki/Shinobu_Kocho" class="character-card" target="_blank">
+                    <div class="status-badge dead">Morta</div>
+                    <img src="images/shinobu-kocho-kimetsu-no-yaiba_bfzn.960.webp" alt="Shinobu Kocho">
+                    <h3>Shinobu Kocho</h3>
+                    <p class="breathing-style">Respiração do Inseto</p>
+                    <p class="location">Última localização: Mansão Dimensional</p>
+                </a>
+
+                <a href="https://kimetsu-no-yaiba.fandom.com/wiki/Tengen_Uzui" class="character-card" target="_blank">
+                    <div class="status-badge alive">Vivo</div>
+                    <img src="images/tengen-uzui-kimetsu-no-yaiba_xrvs.960.webp" alt="Tengen Uzui">
+                    <h3>Tengen Uzui</h3>
+                    <p class="breathing-style">Respiração do Som</p>
+                    <p class="location">Última localização: Distrito do Entretenimento</p>
+                </a>
+
+                <a href="https://kimetsu-no-yaiba.fandom.com/wiki/Sanemi_Shinazugawa" class="character-card" target="_blank">
+                    <div class="status-badge alive">Vivo</div>
+                    <img src="images/sanemi-shinazugawa-kimetsu-no-yaiba_zg4m.960.webp" alt="Sanemi Shinazugawa">
+                    <h3>Sanemi Shinazugawa</h3>
+                    <p class="breathing-style">Respiração do Vento</p>
+                    <p class="location">Última localização: Castelo Infinity</p>
+                </a>
+
+                <a href="https://kimetsu-no-yaiba.fandom.com/wiki/Muichiro_Tokito" class="character-card" target="_blank">
+                    <div class="status-badge dead">Morto</div>
+                    <img src="images/muichiro-tokito-kimetsu-no-yaiba_4mqq.960.webp" alt="Muichiro Tokito">
+                    <h3>Muichiro Tokito</h3>
+                    <p class="breathing-style">Respiração da Névoa</p>
+                    <p class="location">Última localização: Castelo Infinity</p>
+                </a>
+
+                <a href="https://kimetsu-no-yaiba.fandom.com/wiki/Mitsuri_Kanroji" class="character-card" target="_blank">
+                    <div class="status-badge dead">Morta</div>
+                    <img src="images/mitsuri-kanroji-kimetsu-no-yaiba_b739.960.webp" alt="Mitsuri Kanroji">
+                    <h3>Mitsuri Kanroji</h3>
+                    <p class="breathing-style">Respiração do Amor</p>
+                    <p class="location">Última localização: Castelo Infinity</p>
+                </a>
+
+                <a href="https://kimetsu-no-yaiba.fandom.com/wiki/Obanai_Iguro" class="character-card" target="_blank">
+                    <div class="status-badge dead">Morto</div>
+                    <img src="images/obanai-iguro-kimetsu-no-yaiba_nrhh.960.webp" alt="Obanai Iguro">
+                    <h3>Obanai Iguro</h3>
+                    <p class="breathing-style">Respiração da Serpente</p>
+                    <p class="location">Última localização: Castelo Infinity</p>
+                </a>
+
+                <a href="https://kimetsu-no-yaiba.fandom.com/wiki/Gyomei_Himejima" class="character-card" target="_blank">
+                    <div class="status-badge dead">Morto</div>
+                    <img src="images/gyomei-himejima-kimetsu-no-yaiba_b2ex.960.webp" alt="Gyomei Himejima">
+                    <h3>Gyomei Himejima</h3>
+                    <p class="breathing-style">Respiração da Pedra</p>
+                    <p class="location">Última localização: Castelo Infinity</p>
+                </a>
+            </div>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
