@@ -14,7 +14,7 @@ Este projeto apresenta uma galeria de todos os Hashiras, permitindo que os usuá
 * **Design Responsivo:** A interface se adapta a diferentes tamanhos de tela, funcionando bem em desktops e dispositivos móveis.
 * **Links Externos:** Cada card de personagem direciona para a página correspondente na Fandom Wiki para informações mais detalhadas.
 
-## 💻 Tecnologias Utilizadas
+## Tecnologias Utilizadas
 
 * **HTML5:** Para a estrutura e conteúdo da página.
 * **CSS3:** Para a estilização e o layout.
